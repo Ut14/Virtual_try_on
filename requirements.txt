@@ -1,0 +1,34 @@
+# Core Python Libraries
+numpy
+Pillow
+opencv-python
+matplotlib
+
+# Image Processing
+torch
+torchvision
+torchaudio
+albumentations
+scipy
+
+# Background Removal
+rembg
+
+# Pose Estimation (OpenPose - No PyPI Package, but dependencies)
+openpose  # (You manually installed OpenPose, this is just for reference)
+pyyaml
+json5
+
+# Segmentation (U-2-Net)
+onnxruntime
+torchvision
+git+https://github.com/NathanUA/U-2-Net.git  # If using U-2-Net from GitHub
+
+# Flask (If you use a web interface later)
+flask
+
+# File Handling
+tqdm
+
+# System Utilities
+psutil
